@@ -1,0 +1,27 @@
+article {
+	width: 100%;
+	max-width: 1024px;
+	margin: 25px auto;
+	font-size: 100%;
+}
+
+h3 {
+  font-family: 'Arizonia', Helvetica, sans-serif;
+  font-size:175%
+}
+
+p {
+    margin: 0px 10px 5px 10px;
+}
+
+img {
+    float: right;
+    margin: 20px 0px 15px 20px;
+}
+<header>,
+
+<footer>,
+
+<main>,
+
+<article>
