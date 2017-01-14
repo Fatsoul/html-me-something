@@ -7,11 +7,13 @@ body {
 
 h1 {
 	font-family: 'Arizonia', Helvetica, sans-serif;
+	text-align: center;
 }
 
 h3 {
   font-family: 'Arizonia', Helvetica, sans-serif;
-  font-size:175%
+  font-size:175%;
+	text-align: center;
 }
 
 p {
@@ -30,6 +32,11 @@ iframe {
 	border: none;
 	height: 500px;
 	width: 600px
+}
+
+footer {
+	 font-size: 75%;
+	 text-align: right;
 }
 /* background=./images/background.jpeg
 		background-filter: blur(5px);*/
