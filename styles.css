@@ -33,13 +33,12 @@ iframe {
 }
 /* background=./images/background.jpeg
 		background-filter: blur(5px);*/
-.background1 {
+#background1 {
 	background-image: url(./images/background.jpeg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 	background-position: center;
-
 }
 
 .wrapper {
