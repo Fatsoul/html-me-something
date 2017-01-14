@@ -1,8 +1,12 @@
-article {
-	width: 100%;
-	max-width: 1024px;
-	margin: 25px auto;
-	font-size: 100%;
+body {
+	max-width: 900px;
+	display: block;
+	margin: auto;
+
+}
+
+h1 {
+	font-family: 'Arizonia', Helvetica, sans-serif;
 }
 
 h3 {
@@ -11,17 +15,54 @@ h3 {
 }
 
 p {
+		font-family: 'Georgia', Helvetica, sans-serif;
     margin: 0px 10px 5px 10px;
 }
 
-img {
-    float: right;
-    margin: 20px 0px 15px 20px;
+td {
+	height: "250";
+	width: auto;
 }
-<header>,
+/*style="border:none; height:450px; width:600px"*/
+iframe {
+	display: block;
+	margin: auto;
+	border: none;
+	height: 500px;
+	width: 600px
+}
+/* background=./images/background.jpeg
+		background-filter: blur(5px);*/
+.background1 {
+	background-image: url(./images/background.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: center;
 
-<footer>,
+}
 
-<main>,
+.wrapper {
+	max-width: 700px;
+	display: block;
+	margin: auto;
+}
 
-<article>
+.outer {
+	text-align: center;
+}
+
+.cellpic {
+	width: auto;
+	height: 225px;
+}
+
+.celldivtext {
+	width: 300px;
+	height: auto;
+}
+
+.ellipse {
+  border-radius: 50%;
+	width: 100%
+}

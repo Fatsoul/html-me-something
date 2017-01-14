@@ -1,27 +1,47 @@
+<!-- resize table elements so that pictures and text match
+#/ resize iframe to only allow the size of one picture
+#/ fade in text -->
+
+<!DOCTYPE html>
+
 <html>
-<head>
-  <title>This is my story</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="styles.css">
-  <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-</head>
-  <main>
-    <body background=./images/background.jpeg>
-      <div>
-        <h2 style="text-align:center;">This is my story</ht>
-        <img src="./images/skyline.jpeg" alt="St. Louis skyline" width=100%>
+  <head>
+    <title>This is my story</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+  </head>
 
-        <h3 style="text-align:center;">Prologue</h1>
-        <p>Every story has a beginning, middle, and end, but this arrangement can be a little more complicated then you might realize.  One of the most important choices any storyteller makes is where to begin the story. To quote one of the great poets of the late 90s, every beginning is some other beginning's end.</p>
-      </div>
-    
-      <div>
-        <h3 style="text-align:center;">Epilogue</h5>
-        <p>My story began long before me, and it will continue long after me. My children each carry a piece of my heart and mind with them wherever they go. Sometimes, when they say something to me, I can hear my own words echoing back. Sometimes this makes me very happy; sometimes I can't help but be ashamed. My hope is that they will honor me. That they will remember the best parts and forgive the worst.</p>
+  <body class="background1">
+    <main>
+      <header><h1 style="text-align:center;">This is my story...</h1><header>
+      <img class="ellipse" src="./images/skyline.jpeg" alt="St. Louis skyline">
 
-        <image src="./images/autumn park.jpeg" alt="child running away in the park" width=100%>
-      </div>
-    </body>
-    <footer style="font-size:75%; text-align:right">&copy; This is the work of Joseph Kroon &copy;</footer>
-  </main>
+      <article>
+        <div class="wrapper">
+          <div>
+            <h3 style="text-align:center;">~ Prologue ~</h3>
+            <p class="outer">Every story has a beginning, middle, and end, but this arrangement can be a little more complicated then you might realize.  One of the most important choices any storyteller makes is where to begin the story. To quote one of the great poets of the late 90s, every beginning is some other beginning's end.</p>
+          </div>
+
+          <br>
+
+          <div class="center">
+            <iframe src="middle.html"></iframe>
+          </div>
+
+          <br>
+
+          <div>
+            <h3 style="text-align:center;">~ Epilogue ~</h3>
+            <p class="outer">My story began long before me, and it will continue long after me. My children each carry a piece of my heart and mind with them wherever they go. Sometimes, when they say something to me, I can hear my own words echoing back. Sometimes this makes me very happy; sometimes I can't help but be ashamed. My hope is that they will honor me. That they will remember the best parts and forgive the worst.</p>
+            <br>
+          </div>
+        </div>
+      </article>
+      <img class="ellipse" src="./images/autumn park.jpeg" alt="child running away in the park">
+    </main>
+    <footer style="font-size:75%; text-align:right">This is the work of Joseph Kroon &copy; 2017</footer>
+  </body>
+
 </html>
